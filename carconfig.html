@@ -1,14 +1,44 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8">
-  <title>Fahrzeug-Konfigurator</title>
+    <meta charset="UTF-8">
+    <title>Fahrzeug-Konfigurator</title>
 
 </head>
 <body>
 
 <h1>Fahrzeug-Konfigurator</h1>
-
+<form action="#">
+    <label> Fahrzeugmodell:
+        <select name="Fahrzeugmodell" size="1">
+            <option value="Ferrari">Ferrari</option>
+            <option value="Ford">Ford</option>
+            <option value="Bugatti">Bugatti</option>
+            <option value="BMW">BMW</option>
+            <option value="Lamborghini">Lamborghini</option>
+            <option value="Pagani">Pagani</option>
+            <option value="Kia">Kia</option>
+            <option value="Porsche">Porsche</option>
+            <option value="Opel">Opel</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="Audi">Audi</option>
+            <option value="Skoda">Skoda</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Suzuki">Suzuki</option>
+            <option value="Koenigsegg">Koenigsegg</option>
+        </select>
+    </label><br>
+    <label> Lackfarbe:<br>
+        <input type="radio" id="blue" name="lackfarbe" value="Blue">
+        <label for="blue">Blau</label><br>
+        <input type="radio" name="lackfarbe" id="red" value="red">
+        <label for="red">Rot</label><br>
+        <input type="radio" id="black" name="lackfarbe" value="black">
+        <label for="black">Schwarz</label><br>
+        <input type="radio" id="green" name="lackfarbe" value="green">
+        <label for="green">Grün</label><br>
+    </label>
+</form>
 
 </body>
 </html>
